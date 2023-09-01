@@ -7,3 +7,5 @@ ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY '123456';
   
 docker log-in power-shell  
 docker login -u tanapoom0347  
+  
+-v mssqlvolume:/var/opt/mssql  
