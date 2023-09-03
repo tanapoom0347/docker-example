@@ -14,6 +14,7 @@ docker run --rm --name some-nginx -p 80:80 -p 443:443 -d nginx:latest
 docker exec -it some-nginx bash  
 docker cp default.conf some-nginx:/etc/nginx/conf.d  
 certbot --nginx -d 100.68.118.83  
+apt update  
 apt install certbot python3-certbot-nginx  
 nginx -s reload  
 docker   
